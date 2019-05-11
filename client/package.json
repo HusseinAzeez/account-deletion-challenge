@@ -5,13 +5,19 @@
     "serve": "cross-env NODE_ENV=development parcel src/index.html --out-dir out"
   },
   "devDependencies": {
-    "@types/autoprefixer": "6.7.3",
-    "@types/lodash": "4.14.116",
-    "@types/parcel-bundler": "1.10.0",
-    "@types/react": "16.4.16",
-    "@types/react-dom": "16.0.9",
     "babel-plugin-transform-class-properties": "^6.24.1",
-    "cross-env": "5.1.4"
+    "babel-eslint": "^10.0.1",
+    "cross-env": "5.1.4",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^3.8.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.0"
   },
   "dependencies": {
     "autoprefixer": "8.2.0",
