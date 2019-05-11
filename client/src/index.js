@@ -1,16 +1,12 @@
+// Third-party imports
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+// Local imports
 import './index.css'
-import MockDataProvider from './MockDataProvider'
-import TerminateModalFlow from './TerminateModalFlow.react'
+import App from './App'
 
-ReactDOM.render(
-  <MockDataProvider>
-    {props => <TerminateModalFlow {...props} />}
-  </MockDataProvider>,
-  document.getElementById('root')
-)
+ReactDOM.render(<App />, document.getElementById('root'))
 
 // Hot Module Replacement
 if (module.hot) {
