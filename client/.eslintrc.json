@@ -29,6 +29,7 @@
         "ignoreTemplateLiterals": true,
         "ignoreRegExpLiterals": true
       }
-    ]
+    ],
+    "react/require-default-props": 0
   }
 }
